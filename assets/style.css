@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f6fb;
+  color: #222;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: #1e4beb;
+  color: white;
+  text-align: center;
+  padding: 32px 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+header p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.container {
+  width: min(1200px, 100%);
+  margin: 32px auto;
+  padding: 16px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background-color: white;
+  border: 3px solid #111;
+  border-radius: 14px;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+}
+
+.card a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background-color: #ddd;
+}
+
+.caption {
+  display: block;
+  padding: 14px;
+}
+
+.caption strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 17px;
+}
+
+.caption small {
+  display: block;
+  color: #555;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  color: #555;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* HP */
+@media (max-width: 520px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.profile-detail {
+  width: min(900px, 100%);
+  margin: 32px auto;
+  padding: 24px;
+
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 32px;
+
+  background-color: white;
+  border: 3px solid #111;
+  border-radius: 16px;
+}
+
+.profile-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #111;
+}
+
+.profile-info h2 {
+  margin-bottom: 12px;
+  font-size: 28px;
+}
+
+.profile-info p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.profile-info h3 {
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-info ul {
+  margin-left: 20px;
+  margin-bottom: 24px;
+}
+
+.profile-info li {
+  margin-bottom: 6px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 16px;
+
+  background-color: #1e4beb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.back-link:hover {
+  background-color: #1638b8;
+}
+
+@media (max-width: 700px) {
+  .profile-detail {
+    grid-template-columns: 1fr;
+  }
+}
