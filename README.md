@@ -1,8 +1,3 @@
-Siap bang. Ini versi **README lengkap jadi satu**. Isinya sudah mencakup **cara fork, clone, buat branch, edit profil, commit, push, dan Pull Request** dengan bahasa yang mudah dipahami peserta pemula.
-
-Silakan copy-paste semuanya ke file `README.md`.
-
-````md
 # Webdev Workshop - Profil Peserta
 
 Halo teman-teman 👋
