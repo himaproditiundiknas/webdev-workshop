@@ -1,0 +1,32 @@
+.profile-detail{
+    background-color: #023d3d;
+}
+
+.nama{
+    color:crimson
+}
+.profile-info{
+    color:antiquewhite
+}
+p.NIM{
+    color:crimson
+}
+
+h2 .nama {
+    font-size: 20px;
+}
+
+.profile-photo {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 7px solid gray;
+}
+
+.back-link{
+    color:antiquewhite
+}
+.back-link{
+    background-color: darkgray;
+}
