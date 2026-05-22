@@ -1,0 +1,26 @@
+.profile-detail{
+  width: min(900px, 100%);
+  margin: 32px auto;
+  padding: 24px;
+
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 32px;
+
+  background-color: rgb(235, 231, 165);
+  border: 3px solid #111;
+  border-radius: 16px;
+}
+
+.nama{
+    margin-bottom: 14px;
+    font-size: 24px;
+    color: #b77205;
+}
+
+.header{
+    background-color: rgb(235, 231, 165);
+    padding: 24px;
+    border: 3px solid #111;
+    border-radius: 16px;
+}
