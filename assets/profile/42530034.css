@@ -1,0 +1,40 @@
+.profile-detail{
+    background-color: palevioletred;
+}
+
+.nama{
+    color: aqua;
+}
+
+.profile-photo {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #37ff00;
+}
+
+header {
+    background-color: rgb(255, 0, 106);
+    color: white;
+    text-align: center;
+    padding: 32px 20px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 16px;
+    background-color: #580269;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+body{
+    background-color: deeppink;
+}
+
+.tulis{
+    color: #37ff00;
+}
